@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F0461BD1-2FC6-4246-87D7-4BAE82161C02}</ProjectGuid>
+    <ProjectGuid>{81F8E530-8890-4FFE-82B3-7E822FFFDB21}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PruferCode</RootNamespace>
-    <AssemblyName>PruferCode</AssemblyName>
+    <RootNamespace>Courses</RootNamespace>
+    <AssemblyName>Courses</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,6 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TestFiles\bezcyklu.txt" />
+    <Content Include="TestFiles\jestcykl.txt" />
+    <Content Include="TestFiles\nok.txt" />
+    <Content Include="TestFiles\ok.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
