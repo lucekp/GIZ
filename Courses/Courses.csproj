@@ -51,6 +51,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Readme.txt" />
     <Content Include="TestFiles\bezcyklu.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
